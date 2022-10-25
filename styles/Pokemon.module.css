@@ -1,0 +1,264 @@
+  .pokemon_container {
+      text-align: center;
+      height: 100%;
+    }
+
+  .pokemon_container h3 {
+    margin: 0.6em auto;
+    font-size: 1.2em;
+  }
+
+  .main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3em 0;
+  
+  }
+
+  .pokemon_image {
+    height: 400px;
+    width: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #333;
+    border-radius: 1em 1em 0 0;
+  }
+
+  .title {
+    font-size: 2.5em;
+    text-transform: capitalize;
+    background-color: #333;
+    color: #fff;
+    padding: 0.3em;
+    margin: 0 auto;
+    width: 400px;
+
+    border-radius: 0 0 1em 1em;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+  
+
+  
+  .types_container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    filter: contrast(1.2);
+  }
+
+  .ability_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .ability_container p {
+    margin: 0.4em 0.8em 1em 0;
+    padding: 0 0.4em;
+    border-radius: 0.2em;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .type {
+    padding: 0 0.8em;
+    margin: 0.4em 0.4em 0.4em 0;
+    color: #fff;
+    background-color: #000;
+
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 0.8em;
+  }
+  
+  .type_normal {
+    background-color: #aa9;
+  }
+  
+  .type_fire {
+    background-color: #f42;
+  }
+  
+  .type_water {
+    background-color: #39f;
+  }
+  
+  .type_electric {
+    background-color: #fc3;
+  }
+  
+  .type_grass {
+    background-color: #7c5;
+  }
+  
+  .type_ice {
+    background-color: #6cf;
+  }
+  
+  .type_fighting {
+    background-color: #b54;
+  }
+  
+  .type_poison {
+    background-color: #a59;
+  }
+  
+  .type_ground {
+    background-color: #db5;
+  }
+  
+  .type_flying {
+    background-color: #89f;
+  }
+  
+  .type_psychic {
+    background-color: #f59;
+  }
+  
+  .type_bug {
+    background-color: #ab2;
+  }
+  
+  .type_rock {
+    background-color: #ba6;
+  }
+  
+  .type_ghost {
+    background-color: #66b;
+  }
+  
+  .type_dragon {
+    background-color: #76e;
+  }
+  
+  .type_dark {
+    background-color: #754;
+  }
+  
+  .type_steel {
+    background-color: #aab;
+  }
+  
+  .type_fairy {
+    background-color: #e9e;
+  }
+  
+  .data_container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 400px;
+    width: 550px;
+
+    font-size: 1.4em;
+    text-align: left;
+
+    background-color: #fff;
+    color: #333;
+
+    overflow-y: scroll;
+
+    position: relative;
+
+    padding: 0 1em 0;
+  }
+
+  .data_container .pokemon_detail {
+    font-weight: 600;
+    margin: 0 0 1em;
+  }
+
+  .data_container .data_size {
+    position: absolute;
+    top: 0px;
+    line-height: 2em;
+  }
+
+  @media(max-width: 768px) {
+    .title {
+      font-size: 2em;
+      text-transform: capitalize;
+      background-color: #333;
+      color: #fff;
+      padding: 0.3em;
+      margin: 0 auto;
+      width: 300px;
+      margin-bottom: 0.6em;
+  
+      border-radius: 0 0 1em 1em;
+    }
+    
+    .pokemon_container h3 {
+      margin: 0.6em auto;
+      font-size: 1.2em;
+    }
+
+    .main_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     
+      width: 100%;
+      
+      
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    .pokemon_image {
+      height: 280px;
+      width: 280px;
+      padding: 1em;
+      border-radius: 1em;
+    }
+
+    .data_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      overflow-y: visible;
+
+      height: 100%;
+      width: 200px;
+
+      font-size: 1.2em;
+    }
+
+    .data_container .pokemon_detail {
+      width: 280px;
+      padding: 1em 0;
+    }
+
+    .types_container {
+      justify-content: center;  
+      align-items: center;
+    }
+
+    .type {
+      margin: 0.4em 0.4em 1em;
+    }
+
+    .ability_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ability_container p {
+      margin: 0.4em 0.4em 1em;
+    }
+  }
